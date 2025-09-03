@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --cor--princial: rgb(217, 162, 153);
+    --cor--secundaria: rgb(30, 30, 94);
+    --cor--terciaria: rgb(240, 248, 255);
+    --cor--quartenaria: rgb(45, 79, 43);
+}
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    background-color: var(--cor--princial);
+}
+
+.cabecalho__logo{
+    width: auto;
+    height: auto;
+}
+
+.btn{
+    color: var(--cor--secundaria);
+    border: 1px solid var(--cor--secundaria);
+}
+
+.btn:hover{
+    background-color: var(--cor--secundaria);
+    color: var(--cor--terciaria);
+}
+
+.btn-cadastro{
+    text-decoration: none;
+    padding: 9.2px 12px;
+    height: 25px;
+    border-radius: 6px;
+    color: var(--cor--quartenaria);
+    border: 1px solid var(--cor--quartenaria);
+    background-color: var(--cor--princial);
+}
+
+.btn-cadastro:hover{
+    background-color: var(--cor--quartenaria);
+    color: var(--cor--terciaria);
+}
+
+
+/* Media Queries */
+@media (max-width: 974px){
+    .cabecalho__logo{
+        width: 4.5rem;
+    }
+}
