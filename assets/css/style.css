@@ -5,16 +5,19 @@
     --cor--secundaria: rgb(30, 30, 94);
     --cor--terciaria: rgb(240, 248, 255);
     --cor--quartenaria: rgb(45, 79, 43);
-    --cor-texto: rgb(117, 70, 53);
+    --cor--marron: rgb(117, 70, 53);
+    --cor--linha: rgb(209, 212, 207);
 }
 
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
 }
 
@@ -28,20 +31,27 @@ body{
 }
 
 .nav-link{
-    color: var(--cor-texto);
+    color: var(--cor--marron);
+    font-size: 1.2rem;
 } 
 
 .nav-link.active{
     color: var(--cor--secundaria) !important;
 }
 
-.btn{
+.login-form h3{
+    text-align: center;
     color: var(--cor--secundaria);
-    border: 1px solid var(--cor--secundaria);
+    font-size: 1.2rem;
+}
+
+.btn{
+    color: var(--cor--marron);
+    border: 1px solid var(--cor--marron);
 }
 
 .btn:hover{
-    background-color: var(--cor--secundaria);
+    background-color: var(--cor--marron);
     color: var(--cor--terciaria);
 }
 
@@ -53,6 +63,7 @@ body{
     color: var(--cor--quartenaria);
     border: 1px solid var(--cor--quartenaria);
     background-color: var(--cor--princial);
+    font-size: 1rem;
 }
 
 .btn-cadastro:hover{
@@ -61,9 +72,111 @@ body{
 }
 
 
+
+.rodape{
+    margin-top: auto;
+    background-color: var(--cor--princial);
+    color: var(--cor-texto);
+}
+
+.cima {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 24px 0;
+}
+
+.cima .box {
+  margin-top: 3px;  
+  max-width: 320px;
+  min-width: 200px;
+  text-align: center;
+}
+
+.rodape h3{
+    font-size: 1.2rem;
+    color: var(--cor--marron);
+    font-weight: bold;
+}
+
+.rodape p, a{
+    font-size: .9rem;
+    color: var(--cor--marron);
+}
+
+.rodape__rede a{
+    border-radius: 10%;
+    border: .1rem solid var(--cor--marron);
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: .8rem;
+    margin-right: .3rem;
+    text-decoration: none;
+}
+
+.rodape__rede a:hover{
+    background-color: var(--cor--marron);
+    color: var(--cor--terciaria);
+    border-color: var(--cor--marron);
+}
+
+.rodape .link{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rodape .link:hover{
+    color: var(--cor--secundaria);
+}
+
+.rodape .linha{
+    border: 1px solid var(--cor--linha);
+}
+
+.rodape .baixo{
+    display: flex;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor--marron);
+}
+
+.rodape span{
+    font-size: .9rem;
+    color: var(--cor--secundaria);
+    font-weight: bold;
+}
+
 /* Media Queries */
 @media (max-width: 974px){
     .cabecalho__logo{
         width: 4.5rem;
     }
+
+    .nav-link, .login-form h3, .btn, .btn-cadastro{
+        font-size: .8rem;
+    }
+
+    .rodape h3{
+        font-size: .8rem;
+    }
+
+    .rodape p, .rodape span, .rodape a{
+        font-size: .67rem;
+    }
 }
+
+/* Responsivo: empilha as boxes em telas pequenas */
+/* @media (max-width: 768px) {
+  .cima {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .cima .box {
+    max-width: 100%;
+    width: 100%;
+  }
+} */
