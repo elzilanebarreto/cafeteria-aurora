@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root{
-    --cor--princial: rgb(217, 162, 153);
+    --cor--princial: rgb(243, 232, 220);
     --cor--secundaria: rgb(30, 30, 94);
     --cor--terciaria: rgb(240, 248, 255);
     --cor--quartenaria: rgb(45, 79, 43);
+    --cor-texto: rgb(117, 70, 53);
 }
 
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
 }
 
 body{
@@ -23,6 +25,14 @@ body{
 .cabecalho__logo{
     width: auto;
     height: auto;
+}
+
+.nav-link{
+    color: var(--cor-texto);
+} 
+
+.nav-link.active{
+    color: var(--cor--secundaria) !important;
 }
 
 .btn{
