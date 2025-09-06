@@ -20,6 +20,7 @@ body {
   box-sizing: border-box;
 }
 
+/* CABEÇALHO */
 .cabecalho {
   background-color: var(--cor--princial);
 }
@@ -89,6 +90,13 @@ body {
   border-color: var(--cor--marron);
 }
 
+/* CORPO */
+.corpo {
+  display: flex;
+}
+
+
+/* RODAPÉ */
 .rodape {
   margin-top: auto;
   background-color: var(--cor--princial);
@@ -172,8 +180,9 @@ a {
     width: 4.5rem;
   }
 
-  .navbar-nav, .form-control{
-    font-size: .8rem;
+  .navbar-nav,
+  .form-control {
+    font-size: 0.8rem;
     width: 100%;
   }
 
