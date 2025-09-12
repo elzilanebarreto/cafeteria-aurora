@@ -8,6 +8,12 @@
   --cor--linha: rgb(209, 212, 207);
 }
 
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 * {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -23,6 +29,7 @@ body {
 /* CABEÇALHO */
 .cabecalho {
   background-color: var(--cor--princial);
+  width: 100%;
 }
 
 .cabecalho__logo {
