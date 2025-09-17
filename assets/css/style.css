@@ -93,6 +93,8 @@ body {
 /* CORPO */
 .corpo {
   display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .banner {
@@ -111,7 +113,7 @@ body {
 .carousel-caption {
   display: flex;
   position: absolute;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center; 
   align-items: center; 
   color: var(--cor--terciaria);
@@ -128,7 +130,13 @@ body {
   font-size: 1.2rem;
 }
 
+.destaque{
+  display: flex;
+}
 
+.destaque .card {
+  width: 18rem;
+}
 
 /* RODAPÉ */
 .rodape {
