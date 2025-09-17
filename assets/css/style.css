@@ -95,6 +95,40 @@ body {
   display: flex;
 }
 
+.banner {
+  width: 100vw; 
+  overflow: hidden; /* evita scroll horizontal */
+  margin: 0;
+  padding: 0; 
+}
+
+.carousel-item img {
+  width: 100vw; /* largura total da viewport */
+  height: 400px;
+  object-fit: cover; /* mantém proporção e preenche */
+}
+
+.carousel-caption {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  color: var(--cor--terciaria);
+  text-align: center;
+  padding: 0 15px;
+}
+
+.carousel-caption h5 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+}
+
+
 
 /* RODAPÉ */
 .rodape {

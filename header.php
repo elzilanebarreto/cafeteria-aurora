@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafeteria Aurora</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/logo.png" alt="logo" class="cabecalho__logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto">
+              <a class="nav-link active" href="#">Início</a>
+              <a class="nav-link" href="#">Empresa</a>
+              <a class="nav-link" href="#">Montar Pedido</a>
+              <a class="nav-link" href="#">Fale Conosco</a>
+              <a class="nav-link" href="#">Administrador</a>
+            </div>
+
+            <div class="icons">
+              <div id="cart" class="fas fa-shopping-cart"></div>
+              <div id="login" class="fas fa-user"></div>
+            </div>
+
+            <div class="carrinho">
+              <a href="#" class="btn"> Ir Para O Carrinho </a>
+            </div>
+
+            <form action="#" method="post" class="login-form">
+              <h3>Acesse sua conta</h3>
+              <input
+                class="form-control me-2"
+                type="email"
+                name="email"
+                placeholder="Seu E-mail"
+              />
+              <input
+                type="password"
+                name="senha"
+                class="form-control me-2"
+                placeholder="Sua Senha"
+              />
+
+              <div class="cabecalho__botao text-center">
+                <button class="btn" type="submit">Acessar</button>
+                <a href="#" class="btn-cadastro">Criar Conta</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
