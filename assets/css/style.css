@@ -130,12 +130,80 @@ body {
   font-size: 1.2rem;
 }
 
-.destaque{
+/* .destaque{
   display: flex;
-}
+} */
 
 .destaque .card {
+  text-align: center;
   width: 18rem;
+}
+
+.destaque .card .card-body{
+  background-color: var(--cor--princial);
+}
+
+.card-body .card-text{
+  font-weight: bold;
+  color: var(--cor--marron);
+}
+
+.itens_comprados{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.itens_comprados h5{
+  font-weight: 1.8rem;
+  text-align: center;
+  color: var(--cor--marron);
+  font-weight: bold;
+}
+
+.itens_comprados span{
+  font-weight: 1.9rem;
+  text-align: center;
+  color: var(--cor--secundaria);
+  font-weight: bold;
+}
+
+.itens_comprados .card{
+  margin-top: 10px;
+}
+
+.sobre{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.sobre .container{
+  padding: 10px 15px 15px 15px;
+  background-color: var(--cor--terciaria);
+  border-radius: 8px;
+}
+
+.sobre h5{
+  font-weight: 1.8rem;
+  text-align: center;
+  color: var(--cor--marron);
+  font-weight: bold;
+}
+
+.sobre span{
+  font-weight: 1.9rem;
+  text-align: center;
+  color: var(--cor--secundaria);
+  font-weight: bold;
+}
+
+.sobre p{
+  margin-top: 20px;
+  text-align: justify;
 }
 
 /* RODAPÉ */
