@@ -16,28 +16,28 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./assets/img/Banners/banner-1.jpg" class="d-block w-100" alt="croissant e café" />
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
+                    <div class="carousel-caption d-block text-white p-3">
+                        <h5>A melhor Cafeteria do Brasil</h5>
                         <p>
-                            Some representative placeholder content for the first slide.
+                            Faça seu pedido e aproveite!
                         </p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="./assets/img/Banners/banner-2.jpg" class="d-block w-100" alt="croissant e café" />
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
+                    <div class="carousel-caption d-block text-white p-3">
+                        <h5>A melhor Cafeteria do Brasil</h5>
                         <p>
-                            Some representative placeholder content for the second slide.
+                            Faça seu pedido e aproveite!
                         </p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="./assets/img/Banners/banner-3.jpg" class="d-block w-100" alt="croissant, café e grãos" />
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
+                    <div class="carousel-caption d-block text-white p-3">
+                        <h5>A melhor Cafeteria do Brasil</h5>
                         <p>
-                            Some representative placeholder content for the third slide.
+                            Faça seu pedido e aproveite!
                         </p>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
             <div class="row">
                 <div class="col-md-4 mb-4 d-flex justify-content-center">
                     <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="./assets/img/destaques/destaque-1.jpeg" class="card-img-top" alt="Cappuccino Caseiro">
                         <div class="card-body">
                             <p class="card-text">Bebidas</p>
                         </div>
@@ -71,7 +71,7 @@
 
                 <div class="col-md-4 mb-4 d-flex justify-content-center">
                     <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="./assets/img/destaques/destaque-2.jpg" class="card-img-top" alt="Sanduíches">
                         <div class="card-body">
                             <p class="card-text">Sanduíches</p>
                         </div>
@@ -80,7 +80,7 @@
 
                 <div class="col-md-4 mb-4 d-flex justify-content-center">
                     <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="./assets/img/destaques/destaque-3.jpg" class="card-img-top" alt="Sobremesas">
                         <div class="card-body">
                             <p class="card-text">Sobremesas</p>
                         </div>
