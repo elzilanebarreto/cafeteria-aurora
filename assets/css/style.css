@@ -6,6 +6,7 @@
   --cor--terciaria: rgb(240, 248, 255);
   --cor--marron: rgb(117, 70, 53);
   --cor--linha: rgb(209, 212, 207);
+  --cor--preco_antigo: rgb(251, 74, 74);
 }
 
 * {
@@ -18,6 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 /* CABEÇALHO */
@@ -202,6 +204,45 @@ body {
   margin-top: 10px;
 }
 
+.itens_comprados .card img {
+  width: auto;
+  height: 90%;
+  object-fit: cover;
+}
+
+.itens_comprados .card-body {
+  flex-direction: column;
+  text-align: center;
+}
+
+.itens_comprados .card-body .card-text {
+  font-weight: bold;
+  color: var(--cor--secundaria);
+}
+
+.itens_comprados .card-body .card-text-preco {
+  font-size: 1.3rem;
+  color: var(--cor--secundaria);
+}
+
+.itens_comprados .card-body .card-text-preco span {
+  font-size: 0.8rem;
+  text-decoration: line-through;
+  color: var(--cor--preco_antigo);
+}
+
+.itens_comprados .card-body button {
+  border: 1px solid var(--cor--secundaria);
+  border-radius: 6px;
+  background-color: var(--cor--secundaria);
+  color: var(--cor--terciaria);
+}
+
+.itens_comprados .card-body button:hover {
+  background-color: var(--cor--terciaria);
+  color: var(--cor--secundaria);
+}
+
 .sobre {
   display: flex;
   justify-content: center;
@@ -382,11 +423,30 @@ a {
     height: 16rem;
   }
 
+  .itens_comprados .card {
+    width: 16rem;
+    height: 16rem;
+  }
+
+  .itens_comprados .card img {
+    height: 60%;
+  }
+
+  .itens_comprados .card .card-text {
+    margin-top: -18px;
+    font-size: 1rem;
+  }
+
+  .card-text-preco {
+    margin-top: 10px;
+    font-size: 0.5rem;
+  }
+
   /* .carousel-item h5{
     font-size: 1rem;
   }
 
   .carousel-item p{
     font-size: .7rem;
-  } */
+  } */;
 }
