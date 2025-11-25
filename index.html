@@ -15,75 +15,85 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/logo.png"
+      type="image/x-icon"
+    />
   </head>
 
   <body>
     <header class="cabecalho">
       <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+        <div class="container-fluid d-flex align-items-center">
+         
+          <a class="navbar-brand me-auto" href="#">
             <img src="assets/img/logo.png" alt="logo" class="cabecalho__logo" />
           </a>
+
+          <div class="icons d-flex align-items-center order-lg-3 ms-3">
+            <div id="cart" class="fas fa-shopping-cart"></div>
+            <div id="login" class="fas fa-user"></div>
+          </div>
+
+          <div class="carrinho">
+            <a href="#" class="btn"> Acesse o Carrinho </a>
+          </div>
+
+          <form action="#" method="post" class="login-form">
+            <h3>Acesse sua conta</h3>
+            <input
+              class="form-control me-2 box"
+              type="email"
+              name="email"
+              placeholder="Seu E-mail"
+            />
+            <input
+              type="password"
+              name="senha"
+              class="form-control me-2 box"
+              placeholder="Sua Senha"
+            />
+
+            <div class="cabecalho__botao text-center">
+              <button class="btn" type="submit">Acessar</button>
+              <a href="#" class="btn-cadastro">Criar Conta</a>
+            </div>
+          </form>
+
           <button
-            class="navbar-toggler"
+            class="navbar-toggler order-lg-2 ms-2 me-2"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            data-bs-target="#navbarNav"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav mx-auto">
+          <div
+            class="collapse navbar-collapse justify-content-center order-lg-1 w-100 mt-2 mt-lg-0"
+            id="navbarNav"
+          >
+            <div class="navbar-nav">
               <a class="nav-link active" href="#">Início</a>
               <a class="nav-link" href="#">Empresa</a>
               <a class="nav-link" href="#">Montar Pedido</a>
               <a class="nav-link" href="#">Fale Conosco</a>
               <a class="nav-link" href="#">Administrador</a>
             </div>
-
-            <div class="icons">
-              <div id="cart" class="fas fa-shopping-cart"></div>
-              <div id="login" class="fas fa-user"></div>
-            </div>
-
-            <div class="carrinho">
-              <a href="#" class="btn"> Acesse o Carrinho </a>
-            </div>
-
-            <form action="#" method="post" class="login-form">
-              <h3>Acesse sua conta</h3>
-              <input
-                class="form-control me-2 box"
-                type="email"
-                name="email"
-                placeholder="Seu E-mail"
-                />
-              <input
-                type="password"
-                name="senha"
-                class="form-control me-2 box"
-                placeholder="Sua Senha"
-              />
-
-              <div class="cabecalho__botao text-center">
-                <button class="btn" type="submit">Acessar</button>
-                <a href="#" class="btn-cadastro">Criar Conta</a>
-              </div>
-            </form>
           </div>
         </div>
       </nav>
     </header>
 
     <main class="corpo">
-
       <section class="banner">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="2500"
+        >
           <div class="carousel-indicators">
             <button
               type="button"
@@ -108,30 +118,36 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./assets/img/Banners/banner-1.jpg" class="d-block w-100" alt="croissant e café" />
+              <img
+                src="https://images.unsplash.com/photo-1564327367919-cb377ea6a88f?&auto=format&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fHNhbmR3aW5jaGUlMjBhbmQlMjBjb2ZmZWV8ZW58MHx8MHx8fDI%3D"
+                class="d-block"
+                alt="café e torta"
+              />
               <div class="carousel-caption d-block text-white p-3">
                 <h5>A melhor Cafeteria do Brasil</h5>
-                <p>
-                  Faça seu pedido e aproveite!
-                </p>
+                <p>Faça seu pedido e aproveite!</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="./assets/img/Banners/banner-2.jpg" class="d-block w-100" alt="croissant e café" />
+              <img
+                src="https://images.unsplash.com/photo-1763647872237-c76e660cf38b?&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTN8fGNyb2lzc2FudCUyMGFuZCUyMGNvZmZlZXxlbnwwfHwwfHx8Mg%3D%3D"
+                class="d-block"
+                alt="croissant e café"
+              />
               <div class="carousel-caption d-block text-white p-3">
                 <h5>A melhor Cafeteria do Brasil</h5>
-                <p>
-                  Faça seu pedido e aproveite!
-                </p>
+                <p>Faça seu pedido e aproveite!</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="./assets/img/Banners/banner-3.jpg" class="d-block w-100" alt="croissant, café e grãos" />
+              <img
+                src="https://images.unsplash.com/photo-1488117075667-0f5a46f54036?&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDIwfHxtZXNhJTIwZGUlMjBjYWYlQzMlQTklMjBkYSUyMG1hbmhhfGVufDB8fDB8fHwy"
+                class="d-block"
+                alt="café da manhã"
+              />
               <div class="carousel-caption d-block text-white p-3">
                 <h5>A melhor Cafeteria do Brasil</h5>
-                <p>
-                  Faça seu pedido e aproveite!
-                </p>
+                <p>Faça seu pedido e aproveite!</p>
               </div>
             </div>
           </div>
@@ -154,25 +170,31 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-
       </section>
 
       <section class="destaque">
         <div class="container">
-          
           <div class="row">
             <div class="col-md-4 mb-4 d-flex justify-content-center">
               <div class="card">
-                <img src="./assets/img/destaques/destaque-1.jpeg" class="card-img-top" alt="Cappuccino Caseiro">
+                <img
+                  src="https://images.unsplash.com/photo-1658646479124-bc31e6849497?&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fGNhcHVjY2lub3xlbnwwfHwwfHx8Mg%3D%3D"
+                  class="card-img-top"
+                  alt="Cappuccino Caseiro"
+                />
                 <div class="card-body">
                   <p class="card-text">Bebidas</p>
                 </div>
               </div>
             </div>
-            
+
             <div class="col-md-4 mb-4 d-flex justify-content-center">
               <div class="card">
-                <img src="./assets/img/destaques/destaque-2.jpg" class="card-img-top" alt="Sanduíches">
+                <img
+                  src="https://images.unsplash.com/photo-1550507992-eb63ffee0847?&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fHNhbmR3aWNoZXN8ZW58MHx8MHx8fDI%3D"
+                  class="card-img-top"
+                  alt="Sanduíches"
+                />
                 <div class="card-body">
                   <p class="card-text">Sanduíches</p>
                 </div>
@@ -181,28 +203,28 @@
 
             <div class="col-md-4 mb-4 d-flex justify-content-center">
               <div class="card">
-                <img src="./assets/img/destaques/destaque-3.jpg" class="card-img-top" alt="Sobremesas">
+                <img
+                  src="https://images.unsplash.com/photo-1561087548-94e6546744a1?&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYzfHxzb2JyZW1lc2F8ZW58MHx8MHx8fDI%3D"
+                  class="card-img-top"
+                  alt="Sobremesas"
+                />
                 <div class="card-body">
                   <p class="card-text">Sobremesas</p>
                 </div>
               </div>
             </div>
-
           </div>
-          
         </div>
       </section>
 
       <section class="funcionamento">
         <div class="container">
-
           <div class="row justify-content-center">
             <div class="col-md-3 d-flex justify-content-center"></div>
             <div class="col-md-3 d-flex justify-content-center"></div>
             <div class="col-md-3 d-flex justify-content-center"></div>
             <div class="col-md-3 d-flex justify-content-center"></div>
           </div>
-
         </div>
       </section>
 
@@ -210,68 +232,86 @@
         <h5><span>Itens Mais</span> Comprados</h5>
 
         <div class="container">
-
           <div class="row justify-content-center">
-              <div class="col-md-3 d-flex justify-content-center">
-                <div class="card">
-                  <img src="./assets/img/itens/menu-1.jpeg" class="card-img-top" alt="Tapioca">
-                  <div class="card-body">
-                    <p class="card-text">Tapioca</p>
-                    <p class="card-text-preco">R$10,99 <span>R$12,50</span></p>
-                    <button>Ir para o menu</button>
-                  </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card">
+                <img
+                  src="./assets/img/itens/menu-1.jpeg"
+                  class="card-img-top"
+                  alt="Tapioca"
+                />
+                <div class="card-body">
+                  <p class="card-text">Tapioca</p>
+                  <p class="card-text-preco">R$10,99 <span>R$12,50</span></p>
+                  <button>Ir para o menu</button>
                 </div>
               </div>
+            </div>
 
-              <div class="col-md-3 d-flex justify-content-center">
-                <div class="card">
-                  <img src="./assets/img/itens/menu-2.jpg" class="card-img-top" alt="Frapuccino">
-                  <div class="card-body">
-                    <p class="card-text">Frapuccino</p>
-                    <p class="card-text-preco">R$12,99 <span>R$15,75</span></p>
-                    <button>Ir para o menu</button>
-                  </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card">
+                <img
+                  src="./assets/img/itens/menu-2.jpg"
+                  class="card-img-top"
+                  alt="Frapuccino"
+                />
+                <div class="card-body">
+                  <p class="card-text">Frapuccino</p>
+                  <p class="card-text-preco">R$12,99 <span>R$15,75</span></p>
+                  <button>Ir para o menu</button>
                 </div>
               </div>
+            </div>
 
-              <div class="col-md-3 d-flex justify-content-center">
-                <div class="card">
-                  <img src="./assets/img/itens/menu-3.jpg" class="card-img-top" alt="Pão de Queijo">
-                  <div class="card-body">
-                    <p class="card-text">Pão de Queijo</p>
-                    <p class="card-text-preco">R$8,99 <span>R$11,45</span></p>
-                    <button>Ir para o menu</button>
-                  </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card">
+                <img
+                  src="./assets/img/itens/menu-3.jpg"
+                  class="card-img-top"
+                  alt="Pão de Queijo"
+                />
+                <div class="card-body">
+                  <p class="card-text">Pão de Queijo</p>
+                  <p class="card-text-preco">R$8,99 <span>R$11,45</span></p>
+                  <button>Ir para o menu</button>
                 </div>
               </div>
+            </div>
 
-              <div class="col-md-3 d-flex justify-content-center">
-                <div class="card">
-                  <img src="./assets/img/itens/menu-4.jpeg" class="card-img-top" alt="Misto Quente">
-                  <div class="card-body">
-                    <p class="card-text">Misto Quente</p>
-                    <p class="card-text-preco">R$9,99 <span>R$12,50</span></p>
-                    <button>Ir para o menu</button>
-                  </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="card">
+                <img
+                  src="./assets/img/itens/menu-4.jpeg"
+                  class="card-img-top"
+                  alt="Misto Quente"
+                />
+                <div class="card-body">
+                  <p class="card-text">Misto Quente</p>
+                  <p class="card-text-preco">R$9,99 <span>R$12,50</span></p>
+                  <button>Ir para o menu</button>
                 </div>
               </div>
+            </div>
           </div>
-
         </div>
       </section>
 
       <section class="sobre">
         <div class="container">
-            <h5>Cafeteria Aurora: <span>O Sabor Que Combina</span> Com Sua Diversão</h5>
+          <h5>
+            Cafeteria Aurora: <span>O Sabor Que Combina</span> Com Sua Diversão
+          </h5>
 
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ullam facilis error amet perferendis quam, vel dolorum totam optio maiores dicta hic consequatur facere nihil est? Ad inventore quasi sunt?
-            </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            ullam facilis error amet perferendis quam, vel dolorum totam optio
+            maiores dicta hic consequatur facere nihil est? Ad inventore quasi
+            sunt?
+          </p>
 
-            <button>Saiba Mais</button>
+          <button>Saiba Mais</button>
         </div>
       </section>
-
     </main>
 
     <footer class="rodape">
@@ -296,12 +336,7 @@
             >cafeteria@aurora.com.br</a
           >
         </div>
-        <div class="box">
-          <h3>Localização</h3>
-          <p>Av. Ramos Ferreira 991 - Centro</p>
-          <p>Manaus - AM</p>
-          <p>Cep: 69010-120</p>
-        </div>
+        <div class="box"></div>
       </div>
 
       <div class="linha"></div>

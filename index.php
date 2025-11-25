@@ -1,5 +1,5 @@
-<?php 
-    require_once('./header.php');
+<?php
+require_once('./header.php');
 ?>
 <main class="corpo">
 
@@ -15,30 +15,30 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./assets/img/Banners/banner-1.jpg" class="d-block w-100" alt="croissant e café" />
+          <img
+            src="https://images.unsplash.com/photo-1564327367919-cb377ea6a88f?&auto=format&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fHNhbmR3aW5jaGUlMjBhbmQlMjBjb2ZmZWV8ZW58MHx8MHx8fDI%3D"
+            class="d-block" alt="café e torta" />
           <div class="carousel-caption d-block text-white p-3">
             <h5>A melhor Cafeteria do Brasil</h5>
-            <p>
-              Faça seu pedido e aproveite!
-            </p>
+            <p>Faça seu pedido e aproveite!</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./assets/img/Banners/banner-2.jpg" class="d-block w-100" alt="croissant e café" />
+          <img
+            src="https://images.unsplash.com/photo-1763647872237-c76e660cf38b?&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTN8fGNyb2lzc2FudCUyMGFuZCUyMGNvZmZlZXxlbnwwfHwwfHx8Mg%3D%3D"
+            class="d-block" alt="croissant e café" />
           <div class="carousel-caption d-block text-white p-3">
             <h5>A melhor Cafeteria do Brasil</h5>
-            <p>
-              Faça seu pedido e aproveite!
-            </p>
+            <p>Faça seu pedido e aproveite!</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./assets/img/Banners/banner-3.jpg" class="d-block w-100" alt="croissant, café e grãos" />
+          <img
+            src="https://images.unsplash.com/photo-1488117075667-0f5a46f54036?&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDIwfHxtZXNhJTIwZGUlMjBjYWYlQzMlQTklMjBkYSUyMG1hbmhhfGVufDB8fDB8fHwy"
+            class="d-block" alt="café da manhã" />
           <div class="carousel-caption d-block text-white p-3">
             <h5>A melhor Cafeteria do Brasil</h5>
-            <p>
-              Faça seu pedido e aproveite!
-            </p>
+            <p>Faça seu pedido e aproveite!</p>
           </div>
         </div>
       </div>
@@ -53,16 +53,16 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
   </section>
 
   <section class="destaque">
     <div class="container">
-
       <div class="row">
         <div class="col-md-4 mb-4 d-flex justify-content-center">
           <div class="card">
-            <img src="./assets/img/destaques/destaque-1.jpeg" class="card-img-top" alt="Cappuccino Caseiro">
+            <img
+              src="https://images.unsplash.com/photo-1658646479124-bc31e6849497?&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fGNhcHVjY2lub3xlbnwwfHwwfHx8Mg%3D%3D"
+              class="card-img-top" alt="Cappuccino Caseiro" />
             <div class="card-body">
               <p class="card-text">Bebidas</p>
             </div>
@@ -71,7 +71,9 @@
 
         <div class="col-md-4 mb-4 d-flex justify-content-center">
           <div class="card">
-            <img src="./assets/img/destaques/destaque-2.jpg" class="card-img-top" alt="Sanduíches">
+            <img
+              src="https://images.unsplash.com/photo-1550507992-eb63ffee0847?&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fHNhbmR3aWNoZXN8ZW58MHx8MHx8fDI%3D"
+              class="card-img-top" alt="Sanduíches" />
             <div class="card-body">
               <p class="card-text">Sanduíches</p>
             </div>
@@ -80,15 +82,15 @@
 
         <div class="col-md-4 mb-4 d-flex justify-content-center">
           <div class="card">
-            <img src="./assets/img/destaques/destaque-3.jpg" class="card-img-top" alt="Sobremesas">
+            <img
+              src="https://images.unsplash.com/photo-1561087548-94e6546744a1?&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYzfHxzb2JyZW1lc2F8ZW58MHx8MHx8fDI%3D"
+              class="card-img-top" alt="Sobremesas" />
             <div class="card-body">
               <p class="card-text">Sobremesas</p>
             </div>
           </div>
         </div>
-
       </div>
-
     </div>
   </section>
 
@@ -173,6 +175,6 @@
   </section>
 
 </main>
-<?php 
-    require_once('./footer.php');
+<?php
+require_once('./footer.php');
 ?>
